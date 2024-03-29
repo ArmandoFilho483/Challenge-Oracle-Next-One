@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-@media ( max-width: 375px ) {
+@media screen and ( max-width: 375px ) {
     body {
         flex-direction: column;
+        box-sizing: border-box;
     }
+    
     main {
         flex-direction: column;
         padding: 0 16px;
         margin: 0;
+        box-sizing: border-box;
     }
 
     .texto__escrito {
