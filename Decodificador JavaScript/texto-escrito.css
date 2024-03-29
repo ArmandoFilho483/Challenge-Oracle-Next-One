@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.texto__escrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 680px;
+    margin-top: 168px;
+}
+
+textarea {
+    background-color: #f3f5fc;
+    font-family: "Inter", sans-serif;
+    color: #0a3871;
+    border: none;
+    height: 510px;
+    width: 680px;
+    font-size: 32px;
+    line-height: 48px;
+}
+textarea::placeholder {
+    color: #0a3871;
+}
+
+.aviso {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0;
+    margin: 0;
+}
+
+.ph-fill {
+    font-size: 16px;
+    color: #495057;
+    margin: 0;
+    padding: 0;
+}
+
+.aviso__texto {
+    margin: 16px 0px;
+    color: #495057;
+    font-size: 12px;
+}

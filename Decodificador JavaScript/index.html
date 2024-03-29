@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./texto-escrito.css">
+    <link rel="stylesheet" href="./resultado.css">
+    <link rel="stylesheet" href="./botoes.css">
+    <link rel="stylesheet" href="./media768.css">
+    <link rel="stylesheet" href="./media375.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <main>
+        <div class="simbolo">
+            <a href="http://127.0.0.1:5500/index.html"><img src="./assets/simboloA.png" alt=""></a>
+        </div>
+        <div class="texto__escrito">
+            <textarea name="texto" id="texto" placeholder="Digite seu texto."></textarea>
+            <div>
+                <div class="aviso">
+                    <i class="ph-fill ph-warning-circle"></i>
+                    <p class="aviso__texto">Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="botoes">
+                    <button onclick="criptografar()" class="botao">Criptografar</button>
+                    <button onclick="decriptografar()" class="botao">Decriptografar</button>
+                </div>
+            </div>
+        </div>
+        <div class="texto__decodificado" id="texto__tratado">
+            <img src="./assets/garotoLupa.svg" alt="garoto usando uma lupa.">
+            <div class="aviso__texto__resultado">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou decriptografar.</p>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

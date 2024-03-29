@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3f5fc;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    gap: 80px;
+    margin: 40px;
+    box-sizing: border-box;
+}
+
+.simbolo {
+    width: 120px;
+}

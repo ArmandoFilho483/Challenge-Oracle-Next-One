@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@media ( max-width: 768px ) {
+    main {
+        flex-direction: column;
+    }
+
+    .texto__escrito {
+        margin-top: 0;
+    }
+
+    textarea {
+        height: 360px;
+    }
+
+    .texto__decodificado img {
+        display: none;
+    }
+
+    .texto__decodificado {
+        width: auto;
+    }
+
+    .aviso__texto__resultado {
+        margin-top: 0;
+    }
+}
